@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header">
+                    <h4>Загрузка нового документа</h4>
+                </div>
+                <div class="card-body">
+                    <form action="{{ url_for('upload_document') }}" method="POST" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <label for="title" class="form-label">Название документа</label>
+                            <input type="text" class="form-control" id="title" name="title" required>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="type" class="form-label">Тип документа</label>
+                            <select class="form-select" id="type" name="type" required>
+                                <option value="">Выберите тип документа</option>
+                                <option value="приказ">Приказ</option>
+                                <option value="распоряжение">Распоряжение</option>
+                                <option value="инструкция">Инструкция</option>
+                                <option value="положение">Положение</option>
+                                <option value="регламент">Регламент</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="department" class="form-label">Отдел</label>
+                            <select class="form-select" id="department" name="department" required>
+                                <option value="all">Все отделы</option>
+                                {% for отдел in отделы %}
+                                <option value="{{ отдел.id }}">{{ отдел.название }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="deadline" class="form-label">Срок ознакомления</label>
+                            <input type="date" class="form-control" id="deadline" name="deadline" required>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="file" class="form-label">Файл документа</label>
+                            <input type="file" class="form-control" id="file" name="file" required>
+                            <div class="form-text">Поддерживаемые форматы: PDF, DOC, DOCX</div>
+                        </div>
+                        
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-upload me-2"></i>Загрузить документ
+                            </button>
+                            <a href="{{ url_for('documents') }}" class="btn btn-secondary">
+                                <i class="fas fa-arrow-left me-2"></i>Вернуться к списку
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center">
+        <h2>Статистика ознакомления с документами</h2>
+        <a href="{{ url_for('export_statistics', 
+                          start_date=current_filters.start_date,
+                          end_date=current_filters.end_date,
+                          document_type=current_filters.document_type,
+                          department_id=current_filters.department_id) }}" 
+           class="btn btn-success">
+            Экспорт в CSV
+        </a>
+    </div>
+    
+    <!-- Фильтры -->
+    <form method="GET" class="mt-4 mb-4">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="start_date">Начальная дата</label>
+                    <input type="date" class="form-control" id="start_date" name="start_date"
+                           value="{{ current_filters.start_date }}">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="end_date">Конечная дата</label>
+                    <input type="date" class="form-control" id="end_date" name="end_date"
+                           value="{{ current_filters.end_date }}">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="document_type">Тип документа</label>
+                    <select class="form-control" id="document_type" name="document_type">
+                        <option value="">Все типы</option>
+                        {% for тип in типы_документов %}
+                        <option value="{{ тип[0] }}" 
+                                {% if current_filters.document_type == тип[0] %}selected{% endif %}>
+                            {{ тип[0] }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="department_id">Отдел</label>
+                    <select class="form-control" id="department_id" name="department_id">
+                        <option value="">Все отделы</option>
+                        {% for отдел in отделы %}
+                        <option value="{{ отдел.id }}"
+                                {% if current_filters.department_id|string == отдел.id|string %}selected{% endif %}>
+                            {{ отдел.название }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Применить фильтры</button>
+    </form>
+    
+    <div class="table-responsive mt-4">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Документ</th>
+                    <th>Тип документа</th>
+                    <th>Дата создания</th>
+                    <th>Срок ознакомления</th>
+                    <th>Отдел</th>
+                    <th>Всего сотрудников</th>
+                    <th>Ознакомились</th>
+                    <th>Процент</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for стат in статистика %}
+                <tr>
+                    <td>{{ стат.документ.название }}</td>
+                    <td>{{ стат.документ.тип_документа }}</td>
+                    <td>{{ стат.документ.дата_создания.strftime('%d.%m.%Y') }}</td>
+                    <td>{{ стат.документ.срок_ознакомления.strftime('%d.%m.%Y') }}</td>
+                    <td>{{ стат.отдел }}</td>
+                    <td>{{ стат.всего_сотрудников }}</td>
+                    <td>{{ стат.ознакомились }}</td>
+                    <td>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" 
+                                 style="width: {{ стат.процент }}%"
+                                 aria-valuenow="{{ стат.процент }}" 
+                                 aria-valuemin="0" 
+                                 aria-valuemax="100">
+                                {{ стат.процент }}%
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

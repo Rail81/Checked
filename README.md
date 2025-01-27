@@ -23,6 +23,186 @@
   - `/unread` - Непрочитанные документы
   - `/help` - Справка
 
+## Инструкция по развертыванию на VPS Debian 12
+
+### 1. Подготовка сервера
+
+```bash
+# Обновление системы
+apt update && apt upgrade -y
+
+# Установка необходимых пакетов
+apt install python3 python3-pip python3-venv postgresql postgresql-contrib nginx git -y
+```
+
+### 2. Клонирование репозитория
+
+```bash
+# Клонирование проекта
+git clone https://github.com/Rail81/Checked.git
+cd Checked
+```
+
+### 3. Настройка базы данных PostgreSQL
+
+```bash
+# Вход в PostgreSQL
+su - postgres -c "psql"
+
+# В консоли PostgreSQL выполните:
+CREATE DATABASE your_database_name;
+CREATE USER your_user_name WITH PASSWORD 'your_password';
+ALTER ROLE your_user_name SET client_encoding TO 'utf8';
+ALTER ROLE your_user_name SET default_transaction_isolation TO 'read committed';
+ALTER ROLE your_user_name SET timezone TO 'UTC';
+GRANT ALL PRIVILEGES ON DATABASE your_database_name TO your_user_name;
+\q
+```
+
+### 4. Настройка виртуального окружения и установка зависимостей
+
+```bash
+# Создание и активация виртуального окружения
+python3 -m venv venv
+source venv/bin/activate
+
+# Установка зависимостей
+pip install -r requirements.txt
+```
+
+### 5. Настройка переменных окружения
+
+Создайте файл `.env` в корневой директории проекта:
+
+```bash
+# Пример содержимого .env файла
+DATABASE_URL=postgresql://your_user_name:your_password@localhost/your_database_name
+SECRET_KEY=your_secret_key
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token
+```
+
+### 6. Инициализация базы данных
+
+```bash
+# Применение миграций
+flask db upgrade
+```
+
+### 7. Настройка Nginx
+
+Создайте файл конфигурации Nginx:
+
+```bash
+nano /etc/nginx/sites-available/docmanagement
+
+# Добавьте следующую конфигурацию:
+server {
+    listen 80;
+    server_name your_domain_or_IP;
+
+    location / {
+        proxy_pass http://127.0.0.1:5000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+
+# Создание символической ссылки
+ln -s /etc/nginx/sites-available/docmanagement /etc/nginx/sites-enabled
+```
+
+### 8. Настройка systemd для автозапуска
+
+Создайте файлы службы для приложения и бота:
+
+```bash
+# Для основного приложения
+nano /etc/systemd/system/docmanagement.service
+
+[Unit]
+Description=Document Management System
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/path/to/Checked
+Environment="PATH=/path/to/Checked/venv/bin"
+ExecStart=/path/to/Checked/venv/bin/python app.py
+
+[Install]
+WantedBy=multi-user.target
+
+# Для Telegram бота
+nano /etc/systemd/system/docmanagement-bot.service
+
+[Unit]
+Description=Document Management System Bot
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/path/to/Checked
+Environment="PATH=/path/to/Checked/venv/bin"
+ExecStart=/path/to/Checked/venv/bin/python bot.py
+
+[Install]
+WantedBy=multi-user.target
+```
+
+### 9. Запуск служб
+
+```bash
+# Перезапуск Nginx
+systemctl restart nginx
+
+# Включение и запуск служб
+systemctl enable docmanagement
+systemctl start docmanagement
+systemctl enable docmanagement-bot
+systemctl start docmanagement-bot
+```
+
+### 10. Настройка брандмауэра
+
+```bash
+# Разрешение входящего трафика для веб-сервера
+ufw allow 'Nginx Full'
+ufw enable
+```
+
+### Проверка работоспособности
+
+После выполнения всех шагов, ваше приложение должно быть доступно по адресу:
+`http://your_domain_or_IP`
+
+### Примечания по безопасности
+
+1. Измените пароли и токены на безопасные значения
+2. Настройте SSL/TLS сертификат для HTTPS
+3. Регулярно обновляйте систему и зависимости
+4. Создайте резервные копии базы данных
+
+### Устранение неполадок
+
+1. Проверьте логи приложения:
+```bash
+journalctl -u docmanagement
+journalctl -u docmanagement-bot
+```
+
+2. Проверьте статус служб:
+```bash
+systemctl status docmanagement
+systemctl status docmanagement-bot
+```
+
+3. Проверьте логи Nginx:
+```bash
+tail -f /var/log/nginx/error.log
+```
+
 ## Установка на VPS (Debian 12)
 
 ### 1. Подготовка сервера

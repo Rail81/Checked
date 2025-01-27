@@ -1,0 +1,781 @@
+2025-01-26 18:36:57,529 - __main__ - INFO - ������ ����...
+2025-01-26 18:36:57,529 - __main__ - ERROR - ������ ����������� � ���� ������: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-01-26 18:36:57,529 - __main__ - ERROR - ��� ����������� � ���� ������
+2025-01-26 18:39:32,448 - __main__ - INFO - Запуск бота...
+2025-01-26 18:39:32,449 - __main__ - ERROR - Ошибка подключения к базе данных: Textual SQL expression 'SELECT 1' should be explicitly declared as text('SELECT 1')
+2025-01-26 18:39:32,449 - __main__ - ERROR - Нет подключения к базе данных
+2025-01-26 18:39:54,376 - __main__ - INFO - Запуск бота...
+2025-01-26 18:39:54,815 - __main__ - INFO - Бот успешно настроен и запускается...
+2025-01-26 18:39:56,035 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getMe "HTTP/1.1 200 OK"
+2025-01-26 18:39:56,295 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-26 18:39:56,296 - apscheduler.scheduler - INFO - Scheduler started
+2025-01-26 18:39:56,297 - telegram.ext.Application - INFO - Application started
+2025-01-26 18:39:57,339 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:39:57,341 - __main__ - INFO - Пользователь 448967673 запустил команду /start
+2025-01-26 18:39:57,387 - __main__ - INFO - Результат поиска сотрудника: None
+2025-01-26 18:39:57,671 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-26 18:40:07,646 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:40:13,446 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:40:13,448 - __main__ - INFO - Получен табельный номер: 876135
+2025-01-26 18:40:14,542 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-26 18:40:23,711 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:40:33,982 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:40:44,241 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:41:36,852 - __main__ - INFO - Запуск бота...
+2025-01-26 18:41:37,278 - __main__ - INFO - Бот успешно настроен и запускается...
+2025-01-26 18:41:38,481 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getMe "HTTP/1.1 200 OK"
+2025-01-26 18:41:38,767 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-26 18:41:38,768 - apscheduler.scheduler - INFO - Scheduler started
+2025-01-26 18:41:38,768 - telegram.ext.Application - INFO - Application started
+2025-01-26 18:41:49,799 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:41:54,796 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:42:05,050 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:42:08,875 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:42:08,876 - __main__ - INFO - Пользователь 448967673 запустил команду /start
+2025-01-26 18:42:08,899 - __main__ - INFO - Результат поиска сотрудника: None
+2025-01-26 18:42:10,251 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-26 18:42:14,746 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:42:14,750 - __main__ - INFO - Получен табельный номер: 0002
+2025-01-26 18:42:15,049 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-26 18:42:22,245 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:42:22,247 - __main__ - INFO - Выбрано подразделение: Отдел аналитики
+2025-01-26 18:42:23,398 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-26 18:42:31,397 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:42:31,399 - __main__ - INFO - Получен телефон: 43556
+2025-01-26 18:42:32,484 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-26 18:42:41,670 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:42:51,940 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:42:53,434 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:42:53,437 - __main__ - INFO - Обработка QR-кода от пользователя 448967673
+2025-01-26 18:42:54,652 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getFile "HTTP/1.1 200 OK"
+2025-01-26 18:42:54,907 - httpx - INFO - HTTP Request: GET https://api.telegram.org/file/bot7518178530%3AAAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/photos/file_4.jpg "HTTP/1.1 200 OK"
+2025-01-26 18:42:55,270 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-26 18:43:03,693 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:43:13,954 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:43:24,211 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:43:34,485 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:43:44,740 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:44:07,849 - __main__ - INFO - Запуск бота...
+2025-01-26 18:44:08,335 - __main__ - INFO - Бот успешно настроен и запускается...
+2025-01-26 18:44:09,605 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getMe "HTTP/1.1 200 OK"
+2025-01-26 18:44:09,884 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-26 18:44:09,885 - apscheduler.scheduler - INFO - Scheduler started
+2025-01-26 18:44:09,886 - telegram.ext.Application - INFO - Application started
+2025-01-26 18:44:20,939 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:44:31,234 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:44:41,501 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:44:51,763 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:45:02,031 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:45:12,300 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:45:22,578 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:45:32,864 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:45:43,188 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:45:53,450 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:46:03,753 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:46:14,021 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:46:24,285 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:46:34,549 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:46:44,809 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:46:55,178 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:47:05,479 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:47:15,737 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:47:26,000 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:47:36,269 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:47:46,550 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:47:56,832 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:48:07,091 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:48:17,354 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:48:34,622 - __main__ - INFO - Запуск бота...
+2025-01-26 18:48:35,070 - __main__ - INFO - Бот успешно настроен и запускается...
+2025-01-26 18:48:36,278 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getMe "HTTP/1.1 200 OK"
+2025-01-26 18:48:36,537 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-26 18:48:36,539 - apscheduler.scheduler - INFO - Scheduler started
+2025-01-26 18:48:36,539 - telegram.ext.Application - INFO - Application started
+2025-01-26 18:48:47,591 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:48:57,851 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:49:08,129 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:49:18,406 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:49:28,670 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:49:38,932 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:49:49,198 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:49:59,525 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:50:09,802 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:50:20,064 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:50:20,343 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:50:20,344 - __main__ - INFO - Обработка QR-кода от пользователя 448967673
+2025-01-26 18:50:21,628 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getFile "HTTP/1.1 200 OK"
+2025-01-26 18:50:21,886 - httpx - INFO - HTTP Request: GET https://api.telegram.org/file/bot7518178530%3AAAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/photos/file_5.jpg "HTTP/1.1 200 OK"
+2025-01-26 18:50:22,337 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-26 18:50:30,627 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:50:40,889 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:50:51,161 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:51:01,419 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:51:11,686 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:51:21,947 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:51:32,211 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:51:42,536 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:51:52,798 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:52:03,064 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:52:13,329 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:52:23,589 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:52:33,853 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:52:44,118 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:52:54,377 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:53:04,638 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:53:14,925 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:53:25,189 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:53:35,454 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:53:45,723 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:53:56,087 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:54:06,348 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:54:16,608 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:54:26,880 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:54:37,140 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:54:47,402 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 18:54:57,678 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:01:08,831 - __main__ - INFO - Запуск бота...
+2025-01-26 19:01:09,346 - __main__ - INFO - Бот успешно настроен и запускается...
+2025-01-26 19:01:10,545 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getMe "HTTP/1.1 200 OK"
+2025-01-26 19:01:10,803 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-26 19:01:10,804 - apscheduler.scheduler - INFO - Scheduler started
+2025-01-26 19:01:10,804 - telegram.ext.Application - INFO - Application started
+2025-01-26 19:01:21,909 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:01:32,183 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:01:42,462 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:01:52,730 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:02:02,991 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:02:13,253 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:02:23,515 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:02:33,773 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:02:39,460 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:02:39,461 - __main__ - INFO - Пользователь 448967673 запустил команду /start
+2025-01-26 19:02:39,482 - __main__ - INFO - Результат поиска сотрудника: None
+2025-01-26 19:02:40,544 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-26 19:02:49,739 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:02:59,997 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:03:00,495 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:03:00,496 - __main__ - INFO - Получен табельный номер: 0005
+2025-01-26 19:03:01,772 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-26 19:03:03,765 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:03:03,766 - __main__ - INFO - Выбрано подразделение: Отдел аналитики
+2025-01-26 19:03:04,072 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-26 19:03:09,766 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:03:09,769 - __main__ - INFO - Получен телефон: 43445
+2025-01-26 19:03:10,854 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-26 19:03:20,048 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:03:30,311 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:03:40,570 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:03:50,830 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:03:59,270 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:03:59,273 - __main__ - INFO - Обработка QR-кода от пользователя 448967673
+2025-01-26 19:04:00,602 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getFile "HTTP/1.1 200 OK"
+2025-01-26 19:04:01,130 - httpx - INFO - HTTP Request: GET https://api.telegram.org/file/bot7518178530%3AAAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/photos/file_6.jpg "HTTP/1.1 200 OK"
+2025-01-26 19:04:01,456 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-26 19:04:09,559 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:04:19,820 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:04:30,087 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:04:40,351 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:04:50,612 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:05:00,880 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:05:11,141 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:05:21,399 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:05:31,657 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:05:41,938 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:05:52,237 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:06:02,501 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:06:12,760 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:06:23,021 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:06:33,282 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:06:43,543 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:06:53,803 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:07:04,060 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:24:27,069 - __main__ - INFO - Запуск бота...
+2025-01-26 19:24:27,455 - __main__ - INFO - Бот успешно настроен и запускается...
+2025-01-26 19:24:27,771 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getMe "HTTP/1.1 200 OK"
+2025-01-26 19:24:27,854 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-26 19:24:27,857 - apscheduler.scheduler - INFO - Scheduler started
+2025-01-26 19:24:27,858 - telegram.ext.Application - INFO - Application started
+2025-01-26 19:24:28,538 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:24:28,540 - __main__ - INFO - Пользователь 448967673 запустил команду /start
+2025-01-26 19:24:28,553 - __main__ - INFO - Результат поиска сотрудника: None
+2025-01-26 19:24:28,667 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-26 19:24:38,632 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:24:48,711 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:24:54,698 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:24:54,699 - __main__ - INFO - Получен табельный номер: 0001
+2025-01-26 19:24:55,179 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-26 19:24:56,650 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:24:56,652 - __main__ - INFO - Выбрано подразделение: Отдел разработки
+2025-01-26 19:24:56,972 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-26 19:25:00,318 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:25:00,319 - __main__ - INFO - Получен телефон: 33445
+2025-01-26 19:25:00,438 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-26 19:25:10,833 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:25:14,659 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:25:14,660 - __main__ - INFO - Обработка QR-кода от пользователя 448967673
+2025-01-26 19:25:14,910 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getFile "HTTP/1.1 200 OK"
+2025-01-26 19:25:14,990 - httpx - INFO - HTTP Request: GET https://api.telegram.org/file/bot7518178530%3AAAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/photos/file_7.jpg "HTTP/1.1 200 OK"
+2025-01-26 19:25:15,141 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-26 19:25:24,740 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:25:34,821 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:25:44,899 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:25:54,979 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:26:05,058 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:26:15,136 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:26:25,215 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:26:35,294 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:26:45,378 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-26 19:26:55,459 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 10:59:47,272 - __main__ - INFO - Запуск бота...
+2025-01-27 10:59:47,670 - __main__ - INFO - Бот успешно настроен и запускается...
+2025-01-27 10:59:50,191 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getMe "HTTP/1.1 200 OK"
+2025-01-27 10:59:50,748 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-27 10:59:50,750 - apscheduler.scheduler - INFO - Scheduler started
+2025-01-27 10:59:50,750 - telegram.ext.Application - INFO - Application started
+2025-01-27 11:00:02,313 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:00:12,680 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:00:23,052 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:00:33,474 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:00:43,847 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:00:54,224 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:05:34,957 - __main__ - INFO - Запуск бота...
+2025-01-27 11:05:35,393 - __main__ - INFO - Бот успешно настроен и запускается...
+2025-01-27 11:05:41,271 - __main__ - ERROR - Ошибка при запуске бота: Timed out
+Traceback (most recent call last):
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 66, in map_httpcore_exceptions
+    yield
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 366, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpcore\_async\connection.py", line 156, in _connect
+    stream = await stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpcore\_backends\anyio.py", line 67, in start_tls
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 219, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 1530, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 1617, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 1645, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 1682, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 1719, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 365, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 83, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Checked2\document-management-system\bot.py", line 429, in main
+    application.run_polling(allowed_updates=Update.ALL_TYPES)
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_application.py", line 779, in run_polling
+    return self.__run(
+           ^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_application.py", line 967, in __run
+    raise exc
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_application.py", line 956, in __run
+    loop.run_until_complete(self.initialize())
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 686, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_application.py", line 467, in initialize
+    await self.bot.initialize()
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 293, in initialize
+    await super().initialize()
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 729, in initialize
+    await self.get_me()
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 1704, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 519, in decorator
+    result = await func(self, *args, **kwargs)  # skipcq: PYL-E1102
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 769, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 607, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 347, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 635, in _do_post
+    return await request.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 168, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 288, in _request_wrapper
+    raise exc
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 278, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 236, in do_request
+    raise TimedOut from err
+telegram.error.TimedOut: Timed out
+
+2025-01-27 11:17:58,855 - __main__ - INFO - Запуск бота...
+2025-01-27 11:17:59,299 - __main__ - INFO - Бот успешно настроен и запускается...
+2025-01-27 11:18:00,985 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getMe "HTTP/1.1 200 OK"
+2025-01-27 11:18:01,339 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-27 11:18:01,340 - apscheduler.scheduler - INFO - Scheduler started
+2025-01-27 11:18:01,341 - telegram.ext.Application - INFO - Application started
+2025-01-27 11:18:11,221 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:18:12,682 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-27 11:18:22,503 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:18:32,855 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:18:43,204 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:18:54,488 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:19:04,847 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:19:15,223 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:19:25,585 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:19:35,962 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:19:46,316 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:19:56,675 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:27:33,028 - __main__ - INFO - Запуск бота...
+2025-01-27 11:27:33,533 - __main__ - INFO - Бот успешно настроен и запускается...
+2025-01-27 11:27:37,635 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getMe "HTTP/1.1 200 OK"
+2025-01-27 11:27:37,995 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-27 11:27:37,997 - apscheduler.scheduler - INFO - Scheduler started
+2025-01-27 11:27:37,997 - telegram.ext.Application - INFO - Application started
+2025-01-27 11:27:49,789 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:27:52,424 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:27:52,425 - __main__ - INFO - Обработка QR-кода от пользователя 448967673
+2025-01-27 11:27:54,301 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getFile "HTTP/1.1 200 OK"
+2025-01-27 11:27:56,577 - httpx - INFO - HTTP Request: GET https://api.telegram.org/file/bot7518178530%3AAAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/photos/file_13.jpg "HTTP/1.1 200 OK"
+2025-01-27 11:27:57,023 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-27 11:28:02,808 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:28:13,176 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:28:24,308 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:28:34,675 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:28:45,039 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:28:55,387 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:29:05,744 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:29:16,108 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 11:45:38,466 - __main__ - INFO - Запуск бота...
+2025-01-27 11:45:38,912 - __main__ - INFO - Бот успешно настроен и запускается...
+2025-01-27 11:45:46,691 - __main__ - ERROR - Ошибка при запуске бота: Timed out
+Traceback (most recent call last):
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 66, in map_httpcore_exceptions
+    yield
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 366, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpcore\_async\connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpcore\_async\http11.py", line 136, in handle_async_request
+    raise exc
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpcore\_async\http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpcore\_async\http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpcore\_async\http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpcore\_backends\anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 219, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 1530, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 1617, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 1645, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 1682, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 1719, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 365, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 83, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Checked2\document-management-system\bot.py", line 429, in main
+    application.run_polling(allowed_updates=Update.ALL_TYPES)
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_application.py", line 779, in run_polling
+    return self.__run(
+           ^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_application.py", line 967, in __run
+    raise exc
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_application.py", line 956, in __run
+    loop.run_until_complete(self.initialize())
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 686, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_application.py", line 467, in initialize
+    await self.bot.initialize()
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 293, in initialize
+    await super().initialize()
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 729, in initialize
+    await self.get_me()
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 1704, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 519, in decorator
+    result = await func(self, *args, **kwargs)  # skipcq: PYL-E1102
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 769, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 607, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 347, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 635, in _do_post
+    return await request.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 168, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 288, in _request_wrapper
+    raise exc
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 278, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 236, in do_request
+    raise TimedOut from err
+telegram.error.TimedOut: Timed out
+
+2025-01-27 13:02:09,724 - __main__ - INFO - Запуск бота...
+2025-01-27 13:02:10,225 - __main__ - INFO - Бот успешно настроен и запускается...
+2025-01-27 13:02:16,122 - __main__ - ERROR - Ошибка при запуске бота: Timed out
+Traceback (most recent call last):
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 66, in map_httpcore_exceptions
+    yield
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 366, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpcore\_async\connection.py", line 156, in _connect
+    stream = await stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpcore\_backends\anyio.py", line 67, in start_tls
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 219, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 1530, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 1617, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 1645, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 1682, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 1719, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 365, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 83, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Checked2\document-management-system\bot.py", line 429, in main
+    application.run_polling(allowed_updates=Update.ALL_TYPES)
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_application.py", line 779, in run_polling
+    return self.__run(
+           ^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_application.py", line 967, in __run
+    raise exc
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_application.py", line 956, in __run
+    loop.run_until_complete(self.initialize())
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 686, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_application.py", line 467, in initialize
+    await self.bot.initialize()
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 293, in initialize
+    await super().initialize()
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 729, in initialize
+    await self.get_me()
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 1704, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 519, in decorator
+    result = await func(self, *args, **kwargs)  # skipcq: PYL-E1102
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 769, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 607, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 347, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 635, in _do_post
+    return await request.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 168, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 288, in _request_wrapper
+    raise exc
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 278, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sardu\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 236, in do_request
+    raise TimedOut from err
+telegram.error.TimedOut: Timed out
+
+2025-01-27 13:04:45,870 - __main__ - INFO - Запуск бота...
+2025-01-27 13:04:46,350 - __main__ - INFO - Бот успешно настроен и запускается...
+2025-01-27 13:04:48,026 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getMe "HTTP/1.1 200 OK"
+2025-01-27 13:04:48,381 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-27 13:04:48,382 - apscheduler.scheduler - INFO - Scheduler started
+2025-01-27 13:04:48,382 - telegram.ext.Application - INFO - Application started
+2025-01-27 13:04:49,771 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:04:49,774 - __main__ - INFO - Обработка QR-кода от пользователя 448967673
+2025-01-27 13:04:50,215 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getFile "HTTP/1.1 200 OK"
+2025-01-27 13:04:51,017 - httpx - INFO - HTTP Request: GET https://api.telegram.org/file/bot7518178530%3AAAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/photos/file_14.jpg "HTTP/1.1 200 OK"
+2025-01-27 13:04:51,439 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-27 13:04:51,440 - __main__ - INFO - Обработка QR-кода от пользователя 448967673
+2025-01-27 13:04:51,821 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getFile "HTTP/1.1 200 OK"
+2025-01-27 13:04:52,592 - httpx - INFO - HTTP Request: GET https://api.telegram.org/file/bot7518178530%3AAAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/photos/file_15.jpg "HTTP/1.1 200 OK"
+2025-01-27 13:04:58,261 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:04:58,735 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-27 13:04:59,234 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-27 13:04:59,670 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-27 13:05:00,177 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-27 13:05:08,616 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:05:18,978 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:05:29,340 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:05:39,732 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:05:50,094 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:06:00,463 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:06:11,447 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:06:13,818 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:06:19,662 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-27 13:06:24,192 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:06:34,544 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:06:44,905 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:06:55,278 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:07:05,646 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:13:23,509 - __main__ - INFO - Запуск бота...
+2025-01-27 13:13:23,963 - __main__ - INFO - Бот успешно настроен и запускается...
+2025-01-27 13:13:25,646 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getMe "HTTP/1.1 200 OK"
+2025-01-27 13:13:26,007 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-27 13:13:26,009 - apscheduler.scheduler - INFO - Scheduler started
+2025-01-27 13:13:26,009 - telegram.ext.Application - INFO - Application started
+2025-01-27 13:13:33,028 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-27 13:13:33,028 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-27 13:13:33,029 - werkzeug - INFO -  * Restarting with stat
+2025-01-27 13:13:34,071 - werkzeug - WARNING -  * Debugger is active!
+2025-01-27 13:13:34,073 - werkzeug - INFO -  * Debugger PIN: 470-438-231
+2025-01-27 13:13:37,429 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:13:47,792 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:13:58,179 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:14:08,553 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:14:18,916 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:14:29,275 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:14:39,630 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:14:49,989 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:15:00,360 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:15:10,727 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:15:21,150 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:15:31,518 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:15:41,923 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:15:52,300 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:16:02,658 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:16:13,034 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:16:23,458 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:16:33,828 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:16:44,181 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:16:54,542 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:17:04,897 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:17:15,265 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:17:25,642 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:17:35,739 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:17:37,460 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-27 13:17:46,174 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:17:56,552 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:18:02,669 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:18:02] "[35m[1mPOST /delete_document/8 HTTP/1.1[0m" 500 -
+2025-01-27 13:18:02,728 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:18:02] "GET /delete_document/8?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-01-27 13:18:02,732 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:18:02] "GET /delete_document/8?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-01-27 13:18:02,772 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:18:02] "GET /delete_document/8?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-01-27 13:18:02,786 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:18:02] "[36mGET /delete_document/8?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-27 13:18:06,937 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:18:17,305 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:18:27,679 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:22:40,503 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-27 13:22:40,504 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-27 13:22:40,505 - werkzeug - INFO -  * Restarting with stat
+2025-01-27 13:22:41,419 - werkzeug - WARNING -  * Debugger is active!
+2025-01-27 13:22:41,421 - werkzeug - INFO -  * Debugger PIN: 470-438-231
+2025-01-27 13:22:45,893 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:22:45] "GET /documents HTTP/1.1" 200 -
+2025-01-27 13:22:46,952 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:22:46] "GET /documents HTTP/1.1" 200 -
+2025-01-27 13:22:48,216 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:22:48] "GET /documents HTTP/1.1" 200 -
+2025-01-27 13:23:05,242 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:23:05] "GET /documents?отдел_сотрудников_id=1&статус_telegram=connected HTTP/1.1" 200 -
+2025-01-27 13:23:12,247 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:23:12] "[36mGET /get_qr_code/8 HTTP/1.1[0m" 304 -
+2025-01-27 13:23:17,833 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:23:17] "GET /statistics HTTP/1.1" 200 -
+2025-01-27 13:23:23,625 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:23:23] "GET /departments HTTP/1.1" 200 -
+2025-01-27 13:23:25,492 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:23:25] "GET /add_department HTTP/1.1" 200 -
+2025-01-27 13:23:27,405 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:23:27] "GET /departments HTTP/1.1" 200 -
+2025-01-27 13:23:28,077 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:23:28] "GET /users HTTP/1.1" 200 -
+2025-01-27 13:23:29,202 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:23:29] "GET /edit_position/3 HTTP/1.1" 200 -
+2025-01-27 13:23:32,559 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:23:32] "GET /users HTTP/1.1" 200 -
+2025-01-27 13:23:33,325 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:23:33] "GET /documents HTTP/1.1" 200 -
+2025-01-27 13:23:35,160 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:23:35] "GET /users HTTP/1.1" 200 -
+2025-01-27 13:23:37,474 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:23:37] "GET /edit_position/2 HTTP/1.1" 200 -
+2025-01-27 13:23:41,887 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:23:41] "GET /users HTTP/1.1" 200 -
+2025-01-27 13:23:42,866 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:23:42] "GET /documents HTTP/1.1" 200 -
+2025-01-27 13:23:45,043 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:23:45] "GET /statistics HTTP/1.1" 200 -
+2025-01-27 13:23:55,497 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:23:55] "GET /statistics?start_date=2025-01-27&end_date=2025-01-27&document_type=&department_id= HTTP/1.1" 200 -
+2025-01-27 13:24:02,927 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:24:02] "GET /statistics?start_date=2025-01-20&end_date=2025-01-27&document_type=&department_id= HTTP/1.1" 200 -
+2025-01-27 13:24:06,882 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:24:06] "[35m[1mGET /export_statistics?start_date=2025-01-20&end_date=2025-01-27&document_type=&department_id= HTTP/1.1[0m" 500 -
+2025-01-27 13:24:06,932 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:24:06] "[36mGET /export_statistics?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-27 13:24:06,935 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:24:06] "[36mGET /export_statistics?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-27 13:24:06,955 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:24:06] "[36mGET /export_statistics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-27 13:24:15,895 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:24:15] "[35m[1mGET /export_statistics?start_date=2025-01-20&end_date=2025-01-27&document_type=&department_id= HTTP/1.1[0m" 500 -
+2025-01-27 13:24:15,914 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:24:15] "[36mGET /export_statistics?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-27 13:24:15,919 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:24:15] "[36mGET /export_statistics?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-27 13:24:15,935 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:24:15] "[36mGET /export_statistics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-27 13:24:18,114 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:24:18] "GET /statistics?start_date=2025-01-27&end_date=2025-01-27&document_type=&department_id= HTTP/1.1" 200 -
+2025-01-27 13:24:22,648 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:24:22] "GET /statistics?start_date=2025-01-27&end_date=2025-01-31&document_type=&department_id= HTTP/1.1" 200 -
+2025-01-27 13:24:24,416 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:24:24] "[35m[1mGET /export_statistics?start_date=2025-01-27&end_date=2025-01-31&document_type=&department_id= HTTP/1.1[0m" 500 -
+2025-01-27 13:24:24,435 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:24:24] "[36mGET /export_statistics?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-01-27 13:24:24,441 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:24:24] "[36mGET /export_statistics?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-01-27 13:24:24,455 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:24:24] "[36mGET /export_statistics?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-27 13:24:29,551 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:24:29] "GET /users HTTP/1.1" 200 -
+2025-01-27 13:24:30,457 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:24:30] "GET /statistics HTTP/1.1" 200 -
+2025-01-27 13:24:31,020 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:24:31] "GET /documents HTTP/1.1" 200 -
+2025-01-27 13:36:07,900 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-27 13:36:07,900 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-27 13:36:07,901 - werkzeug - INFO -  * Restarting with stat
+2025-01-27 13:36:08,954 - werkzeug - WARNING -  * Debugger is active!
+2025-01-27 13:36:08,956 - werkzeug - INFO -  * Debugger PIN: 470-438-231
+2025-01-27 13:36:25,527 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:36:25] "GET /statistics HTTP/1.1" 200 -
+2025-01-27 13:36:28,971 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:36:28] "GET /statistics HTTP/1.1" 200 -
+2025-01-27 13:36:29,764 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:36:29] "GET /statistics HTTP/1.1" 200 -
+2025-01-27 13:36:30,076 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:36:30] "GET /statistics HTTP/1.1" 200 -
+2025-01-27 13:36:30,227 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:36:30] "GET /statistics HTTP/1.1" 200 -
+2025-01-27 13:36:30,372 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:36:30] "GET /statistics HTTP/1.1" 200 -
+2025-01-27 13:36:40,750 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:36:40] "GET /statistics?start_date=2025-01-27&end_date=2025-01-31&document_type=&department_id= HTTP/1.1" 200 -
+2025-01-27 13:36:41,515 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:36:41] "GET /export_statistics?start_date=2025-01-27&end_date=2025-01-31&document_type=&department_id= HTTP/1.1" 200 -
+2025-01-27 13:37:14,516 - werkzeug - INFO - 127.0.0.1 - - [27/Jan/2025 13:37:14] "GET /documents HTTP/1.1" 200 -
+2025-01-27 13:38:07,287 - __main__ - INFO - Запуск бота...
+2025-01-27 13:38:07,751 - __main__ - INFO - Бот успешно настроен и запускается...
+2025-01-27 13:38:09,564 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getMe "HTTP/1.1 200 OK"
+2025-01-27 13:38:09,935 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-27 13:38:09,936 - apscheduler.scheduler - INFO - Scheduler started
+2025-01-27 13:38:09,937 - telegram.ext.Application - INFO - Application started
+2025-01-27 13:38:14,017 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-27 13:38:14,017 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-27 13:38:14,018 - werkzeug - INFO -  * Restarting with stat
+2025-01-27 13:38:15,235 - werkzeug - WARNING -  * Debugger is active!
+2025-01-27 13:38:15,237 - werkzeug - INFO -  * Debugger PIN: 470-438-231
+2025-01-27 13:38:18,656 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:38:20,303 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/sendMessage "HTTP/1.1 200 OK"
+2025-01-27 13:38:29,027 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:38:39,385 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:38:49,750 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:39:00,121 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"
+2025-01-27 13:39:10,473 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7518178530:AAGrozWWd3e1OX0ELJJhPD4PZUH0B4LEXag/getUpdates "HTTP/1.1 200 OK"

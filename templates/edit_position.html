@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2>Редактирование данных сотрудника</h2>
+    
+    <form method="POST" class="mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="фамилия">Фамилия</label>
+                    <input type="text" class="form-control" id="фамилия" name="фамилия" 
+                           value="{{ сотрудник.фамилия }}" required>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="имя">Имя</label>
+                    <input type="text" class="form-control" id="имя" name="имя" 
+                           value="{{ сотрудник.имя }}" required>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="отчество">Отчество</label>
+                    <input type="text" class="form-control" id="отчество" name="отчество" 
+                           value="{{ сотрудник.отчество }}">
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="табельный_номер">Табельный номер</label>
+                    <input type="text" class="form-control" id="табельный_номер" name="табельный_номер" 
+                           value="{{ сотрудник.табельный_номер }}" required>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" 
+                           value="{{ сотрудник.email }}" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="должность">Должность</label>
+                    <input type="text" class="form-control" id="должность" name="должность" 
+                           value="{{ сотрудник.должность }}" required>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="рабочий_телефон">Рабочий телефон</label>
+                    <input type="tel" class="form-control" id="рабочий_телефон" name="рабочий_телефон" 
+                           value="{{ сотрудник.рабочий_телефон }}">
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="отдел">Отдел</label>
+                    <select class="form-control" id="отдел" name="отдел_id" required>
+                        {% for отдел in отделы %}
+                        <option value="{{ отдел.id }}" {% if отдел.id == сотрудник.отдел_id %}selected{% endif %}>
+                            {{ отдел.название }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="роль">Роль в системе</label>
+                    <select class="form-control" id="роль" name="роль" required>
+                        <option value="сотрудник" {% if сотрудник.роль == 'сотрудник' %}selected{% endif %}>
+                            Сотрудник
+                        </option>
+                        <option value="руководитель" {% if сотрудник.роль == 'руководитель' %}selected{% endif %}>
+                            Руководитель
+                        </option>
+                        <option value="администратор" {% if сотрудник.роль == 'администратор' %}selected{% endif %}>
+                            Администратор
+                        </option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <button type="submit" class="btn btn-primary">Сохранить</button>
+            <a href="{{ url_for('users') }}" class="btn btn-secondary">Отмена</a>
+        </div>
+    </form>
+</div>
+{% endblock %}

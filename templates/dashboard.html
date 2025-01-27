@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+
+{% block title %}Панель управления{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-12 mb-4">
+        <h2>Добро пожаловать, {{ current_user.имя }}!</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Документы</h5>
+                <p class="card-text">Управление документами и просмотр статуса ознакомления.</p>
+                <a href="{{ url_for('get_documents') }}" class="btn btn-primary">Перейти к документам</a>
+            </div>
+        </div>
+    </div>
+
+    {% if current_user.роль == 'администратор' %}
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Сотрудники</h5>
+                <p class="card-text">Управление сотрудниками и их правами доступа.</p>
+                <a href="#" class="btn btn-primary">Управление сотрудниками</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Статистика</h5>
+                <p class="card-text">Просмотр статистики документооборота.</p>
+                <a href="#" class="btn btn-primary">Просмотр статистики</a>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">Последние документы</h5>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Название</th>
+                                <th>Тип</th>
+                                <th>Срок ознакомления</th>
+                                <th>Статус</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for doc in latest_documents %}
+                            <tr>
+                                <td>{{ doc.название }}</td>
+                                <td>{{ doc.тип_документа }}</td>
+                                <td>{{ doc.срок_ознакомления.strftime('%d.%m.%Y') }}</td>
+                                <td>
+                                    {% if doc.id in read_documents %}
+                                    <span class="badge bg-success">Прочитано</span>
+                                    {% else %}
+                                    <span class="badge bg-warning">Ожидает</span>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
